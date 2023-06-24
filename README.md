@@ -1,6 +1,5 @@
 # Esp32-Multiples-Redes-Wifi
 
-### Codigo no probado y falta descargar las librerias
 ```c++
 #include <WiFi.h>
 #include <WiFiMulti.h>
