@@ -11,9 +11,9 @@ void setup()
   Serial.begin(115200);
   delay(10);
 
-  wifiMulti.addAP("ssid_1", "your_password");
-  wifiMulti.addAP("ssid_2", "your_password");
-  wifiMulti.addAP("ssid_3", "your_password");
+  wifiMulti.addAP("ssid_1", "password");
+  wifiMulti.addAP("ssid_2", "password");
+  wifiMulti.addAP("ssid_3", "password");
 
   Serial.println("Conectando WiFi...");
   if (wifiMulti.run() == WL_CONNECTED) 
