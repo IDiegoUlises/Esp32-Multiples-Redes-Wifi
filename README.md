@@ -34,4 +34,4 @@ void loop()
   }
 }
 ```
-* Este codigo realiza la conexion WiFi con las redes disponibles del dispositivo en caso que una red no este disponible se conectara a la segunda red asi sucesivamente ademas el orden en el cual es definida es la preferencia de conexion
+* Este codigo realiza la conexion WiFi con las redes disponibles del dispositivo en caso que una red no este disponible se conectara a la segunda red asi sucesivamente el orden en el cual es definida es la preferencia de conexion de la red
