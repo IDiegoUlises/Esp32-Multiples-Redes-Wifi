@@ -11,15 +11,15 @@ void setup()
   Serial.begin(115200);
   delay(10);
 
-  wifiMulti.addAP("ssid_from_AP_1", "your_password");
-  wifiMulti.addAP("ssid_from_AP_2", "your_password");
-  wifiMulti.addAP("ssid_from_AP_3", "your_password");
+  wifiMulti.addAP("ssid_1", "your_password");
+  wifiMulti.addAP("ssid__2", "your_password");
+  wifiMulti.addAP("ssid__3", "your_password");
 
-  Serial.println("Connecting Wifi...");
+  Serial.println("Conectando WiFi...");
   if (wifiMulti.run() == WL_CONNECTED) 
   {
     Serial.println("");
-    Serial.println("WiFi connected");
+    Serial.println("WiFi Conectado");
     Serial.println("IP address: ");
     Serial.println(WiFi.localIP());
   }
@@ -29,7 +29,7 @@ void loop()
 {
   if (wifiMulti.run() != WL_CONNECTED)
   {
-    Serial.println("WiFi not connected!");
+    Serial.println("WiFi no conectado!");
     delay(1000);
   }
 }
